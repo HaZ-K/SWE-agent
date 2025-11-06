@@ -6,7 +6,7 @@ from typing import Literal, Self
 
 from pydantic import BaseModel, ConfigDict, Field
 from swerex.deployment.abstract import AbstractDeployment
-from swerex.deployment.config import DeploymentConfig, DockerDeploymentConfig, get_deployment
+from swerex.deployment.config import DeploymentConfig, LocalDeploymentConfig, get_deployment
 from swerex.runtime.abstract import (
     BashAction,
     BashInterruptAction,
